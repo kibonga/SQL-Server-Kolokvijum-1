@@ -1,0 +1,35 @@
+
+
+Join:
+
+Tipovi Spajanja:
+1. CROSS
+2. INNER
+3. LEFT-OUTER
+4. RIGHT-OUTER
+5. FULL-OUTER
+
+
+
+Pravila Spajanja sa JOIN:
+1. Ako kolone dve razlicite tabele imaju isto ime mora se navesti ime tabele ciju
+kolonu pozivamo
+
+2. Bolja praksa je da svakoj koloni damo Alijas tako da mozemo da razlikujemo
+kolone isitih naziva
+
+autori naziv == a.naziv
+naslovi naziv == n.naziv
+
+3. Uglavnom se povezivanje sa JOIN vrsi na relaciji 
+FK --> PK
+
+4. Jednim JOIN-om se mogu spojiti 2 tabele, ali moze imati vise JOIN-ova
+
+5. Redovi kolone koja se spaja, a sadrzi NULL, nece se povezati
+(Osim u slucajevima CROSS ili OUTER JOIN)
+
+
+Uslov spajanja: ON
+Uslov koji se tice veze izmedju dve tabele
+(ne idu uslovi koji su vezani za filtriranje podataka)

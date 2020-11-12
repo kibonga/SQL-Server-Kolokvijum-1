@@ -1,0 +1,44 @@
+
+
+Podupiti:
+Upit ugnjezden u drugi upit
+
+Mesta gde se moze staviti Podupit:
+1. SELECT
+2. FROM
+3. WHERE(najcesci)
+4. HAVING
+
+Podupiti se mogu izbeci upotrebom Spajanja
+ali je nekad Podupit bolja opcija
+
+
+Pravila Podupita:
+1. Stoji unutar zagrada(tako se razlikuje od glavnog upita)
+2. Ista sintaksa kao kod obicnog SELECT upita
+3. Moze se pozivati kolona iz glavnog upita
+4. U glavnom Upitu ne sme se pozivati kolona iz Podupita
+
+
+
+1. SELECT Podupit
+Daje skup(skalarnih) vrednosti(ne daje tabelu)
+U prevodu, koriste se agregatne funkcije
+Daje neku konkretnu vrednost
+
+
+2. FROM Podupit
+Veoma retko se koristi
+
+3. WHERE Podupit(najcesci)
+
+WHERE izraz operator (Podupit)
+WHERE izraz [NOT] IN (Podupit)
+WHERE izraz operator ALL (Podupit)
+WHERE izraz operator ANY (Podupit)
+WHERE izraz [NOT] EXISTS (Podupit)
+
+operatori: =,<>,>,<,<=,>=
+
+4. HAVING Podupit(drugi najcesci)
+

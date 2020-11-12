@@ -1,0 +1,10 @@
+
+
+INNER JOIN:
+Iz dve tabele, spaja samo one redove koji zadovoljavaju uslov spajanja(ON)
+
+SELF JOIN je vid spajanja INNER JOIN-a 
+Omogucava poredjenje vrednosti u istoj koloni  ili u razlicitim kolonama iste tabele
+
+Iako je u pitanju jedna ista Tabela, DBMS ce ih posmatrati kao dve nezavisne
+Zato trebaju da nose razlicite nazive 

@@ -1,0 +1,20 @@
+
+
+    naziv: Relacioni Model. Tipovi Podataka u MS SQL Serveru
+
+    predavanja: 3 casa
+    vezbe:      3 casa
+
+    Kolokvijumi:
+
+    K1: 15p (5-6-7 sedmica)
+    K2: 35p, obavezan (9 sedmica)
+
+    Ispit:
+
+    preduslov: >25p
+
+
+
+
+    

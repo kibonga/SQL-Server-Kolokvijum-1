@@ -1,0 +1,17 @@
+
+
+Update Upit:
+
+Isti princip
+Nova vrednost se dodaje u kolonu New Value
+ali
+Mora se selektovati i id da bi DBMS znao za koji red azurira podatke
+Kolona Filter tog reda prima taj id
+Takodje posto se id ne menja SET kolona treba da bude unchecked
+
+
+                Filter
+autor_id --->  ='A35'
+
+Ovo u prevodu znaci WHERE id='A35'
+Takodje posto se id ne menja SET kolona treba da bude unchecked

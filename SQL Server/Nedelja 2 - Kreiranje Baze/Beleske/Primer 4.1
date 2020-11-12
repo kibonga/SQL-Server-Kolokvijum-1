@@ -1,0 +1,43 @@
+
+
+    naziv: Primer 4.1
+
+
+
+    za Data Type stavlja int
+
+
+    automatsko inkrementiranje:
+    Column Properties -> Identity Specification -> (Is Identity) -> Yes
+    *Identity Increment - za koliko uvecava
+     Identity Seed      - koja je pocetna vrednost
+
+
+
+{
+   1. nchar and nvarchar can store Unicode characters.
+
+   2. char and varchar cannot store Unicode characters.
+
+   3. char and nchar are fixed-length which will reserve storage space for number
+    of characters you specify even if you don't use up all that space.
+
+   4. varchar and nvarchar are variable-length which will only use up spaces
+    for the characters you store. It will not reserve storage like char or nchar.
+
+   5. nchar and nvarchar will take up twice as much storage space, so it may be wise
+    to use them only if you need Unicode support.
+}
+
+
+*telefonski brojevi kao tekst a ne kao number, zato sto ne vrsimo matematicke operacije
+sa brojevima
+
+
+Sema tabele: kolone, tipovi podataka, karakteristike
+
+
+Generisanje skripte:
+Naziv baze(desni klik) -> Tasks -> Generate Scrtipts
+
+.../Open in new Query window .. advanced -> Types of data to script -> Schema and data

@@ -1,0 +1,10 @@
+
+
+OUTER JOIN:
+
+
+LEFT - prikazuje sve redove iz prve tabele
+RIGHT - prikazuje sve redove iz druge tabele
+FULL - prikazuje sve redove iz obe tabele
+
+Na mestu gde nije zadovoljen uslov spajanja stavlja se NULL

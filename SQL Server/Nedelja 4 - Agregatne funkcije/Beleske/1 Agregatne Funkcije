@@ -1,0 +1,32 @@
+
+
+Agregatne Funkcije:
+Odnose se na celu Tabelu a ne samo na jedan red
+
+Operisu na grupu redova i kao rezultat vracaju jednu vrednost
+Uzimaju u obzir celu Tabelu a ne pojedinacan red
+
+Tipovi Agregatnih Funkcija:
+1. MIN
+2. MAX
+3. SUM(nad redovima gde su numericke vrednosti)
+4. AVG
+5. COUNT    broj vrednosti izraza koje nisu NULL
+6. COUNT(*) broj vrednosti svih izraza
+
+agregatnaFunkcija([DISTINCT]izraz)
+Ako se koristi DISTINCT onda se Agregatna Funkcija racuna samo na
+razlicitim vrednostima iz izraza 
+
+DISTINCT igra bitnu ulogu kod SUM, AVG i COUNT
+
+SUM != COUNT
+
+
+
+Pravila koriscenja Agregatnih Funkcija:
+Sve Agregatne Funkcije ignorisu NULL vrednosti osim COUNT(*)
+Ne smeju se koristiti u WHERE naredbi
+U okviru SELECT-a ne mogu se mesati sa neagregatnim funkcijama
+Moze se pozvati vise Agregatnih Funkcija
+Ne mogu se ugnjezdavati Agregatne Funkcije

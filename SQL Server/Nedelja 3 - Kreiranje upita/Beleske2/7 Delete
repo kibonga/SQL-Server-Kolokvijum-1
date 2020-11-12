@@ -1,0 +1,14 @@
+
+
+Delete Upit:
+
+
+Isti princip
+
+Column: odaberemo kolonu iz koje ce se brisati
+Table: odaberemo tabelu iz koje ce se brisati
+Filter: odredjuje koji red ce se brisati
+OR: 
+
+Ako se pise u novom redu to znaci AND:
+(au_id='A35')AND(au_id='A31')

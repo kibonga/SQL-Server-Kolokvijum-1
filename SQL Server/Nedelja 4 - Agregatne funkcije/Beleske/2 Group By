@@ -1,0 +1,25 @@
+
+
+Group By:
+
+
+Pravila za GROUP BY:
+1. Samostalne kolone koje se nalaze u SELECT-u se moraju naci i u GROUP BY
+(ovo ne vazi za kolone koje su argument Agregatnim Funkcijama)
+(MIN(cena), ovo ne ide u GROUP BY)
+
+2. Izraz nad kolonama u SELECT-u se u istom obliku mora naci i u GROUP BY
+
+3. U GROUP BY se ne moze naci naziv Alijas Kolone
+
+4. Redovi koji su NULL, ce biti grupisani u NULL grupu
+
+5. HAVING samo filtrira dobijene rezultate od GROUP BY
+
+HAVING !== WHERE
+HAVING - prvo dobije rezultate pa ih onda filtrira
+WHERE - prvo filtrira pa se tek onda dobijaju podaci
+
+6. HAVING moze da sadrzi agregatne funkcije
+
+7. HAVING moze da sadrzi sve iz SELECT-a ali i dodatne kolone

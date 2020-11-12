@@ -1,0 +1,9 @@
+
+
+Select Upit:
+
+Alias: Drugacije prikazivanje naziva kolone
+Filter: Ako treba neki uslov(WHERE)
+(obrati paznju da li je nvarchar  LIKE N'P%'  )
+Sort Type: Bitan je redosled oznacavanja Sort Type
+(videce se redosled u koloni Sort Order)

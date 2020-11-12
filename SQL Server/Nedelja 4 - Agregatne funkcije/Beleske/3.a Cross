@@ -1,0 +1,12 @@
+
+
+CROSS JOIN:
+Spajaju se svi redovi jedne sa svim redovima druge tabele
+(sve moguce kombinacije redova dve tabele)
+
+Nema prakticnu primenu u stvarnom zivotu, ali je bitan jer se iz njega 
+izvode ostali JOIN-ovi
+
+
+Mogu se povezati i tabele bez upotrebe kljuceva
+Tada se po defaultu uzima CROSS JOIN

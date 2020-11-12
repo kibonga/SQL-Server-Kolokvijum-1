@@ -1,0 +1,15 @@
+
+
+Insert Results
+
+1. Query Designer
+2. Change Type --> Insert Results
+(bitan je redosled da se prvo promeni tip)
+3. Add Table - Tabela iz koje ce dolaziti podaci
+4. Append - Upariti odgovarajuce kolone
+5. Execute
+
+Ako je doslo do greske:
+Selektuje se kod Upita koji pravi gresku i desni klik --> Design Query in Editor
+
+
